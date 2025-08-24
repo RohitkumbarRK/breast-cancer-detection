@@ -1,0 +1,50 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs and run-time artifacts
+logs/
+*.log
+
+# Uploads
+uploads/
+
+# Test/pytest
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Build/packaging
+build/
+dist/
+*.egg-info/
+
+# Data: ignore all except curated test images
+# Keep specific demo/test files
+# Note: re-include requires patterns below
+/data/*
+!/data/test_images/
+!/data/test_images/**
+!/data/test_mammography.jpg
+
+# Model weights or large artifacts (if any)
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
